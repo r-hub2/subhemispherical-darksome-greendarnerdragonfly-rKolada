@@ -1,0 +1,23 @@
+Package: rKolada
+Type: Package
+Title: Access Data from the 'Kolada' Database
+Version: 0.2.3
+Authors@R: person("Love", "Hansson", email =
+ "love.hansson@gmail.com", role = c("aut", "cre"))
+Maintainer: Love Hansson <love.hansson@gmail.com>
+Description: Methods for downloading and processing data and metadata from 'Kolada', the official Swedish regions and municipalities database <https://www.kolada.se/>.
+License: AGPL-3
+URL: https://lchansson.github.io/rKolada/,
+        https://github.com/lchansson/rKolada
+BugReports: https://github.com/lchansson/rKolada/issues
+Encoding: UTF-8
+Suggests: testthat, knitr, rmarkdown, stringi, ggplot2, scales,
+        progress
+RoxygenNote: 7.3.1
+Imports: tibble, dplyr, glue, stringr, httr, jsonlite, magrittr, tidyr,
+        purrr, rlang, urltools
+VignetteBuilder: knitr
+Depends: R (>= 4.0.0)
+NeedsCompilation: no
+Packaged: 2024-04-17 13:49:53 UTC; lchansson
+Author: Love Hansson [aut, cre]
